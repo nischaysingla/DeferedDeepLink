@@ -1,27 +1,35 @@
-<html>
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-  <link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
-  <link rel="icon" href="https://cdn.appsflyer.com/af-statics/images/favicon.png" type="image/png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
-<script type="text/javascript">
-  // 3e8308c71544fc0e9cebe1017e037254
-  // fe9071b962c1a35b11cbf3b25fbc1b3b
-  var full_package_name = 'com.flipkart.android';
-  var full_package_name_len = full_package_name.length;
-  var index_of_last_dash = full_package_name.lastIndexOf('-');
-  var package_name = index_of_last_dash < 0 ? full_package_name : full_package_name.slice(0,index_of_last_dash);
-  var app_link = 'flipkart://shopping?advertising_id=ffe228b2-e37d-49d4-b76e-32dab146ddcf&af_deeplink=true&af_dp=flipkart%3A%2F%2Fshopping&campaign=Test&deep_link_value=%7B%22url%22%3A%20%22https%3A%2F%2Fwww.flipkart.com%2Fe%2Fp%2Fp%3Fpid%3DMOBGHFGDDKNZHGQP%22%7D&media_source=Test';
-  var store_link = 'market://details?id=com.flipkart.android&referrer=af_tranid%3DoBGiTlj2q24BocOI1cfyIw%26af_dp%3Dflipkart%253A%252F%252Fshopping%26c%3DTest%26pid%3DTest%26deep_link_value%3D%257B%2522url%2522%253A%2520%2522https%253A%252F%252Fwww.flipkart.com%252Fe%252Fp%252Fp%253Fpid%253DMOBGHFGDDKNZHGQP%2522%257D';
-  var referrer = 'af_tranid%3DoBGiTlj2q24BocOI1cfyIw%26af_dp%3Dflipkart%253A%252F%252Fshopping%26c%3DTest%26pid%3DTest%26deep_link_value%3D%257B%2522url%2522%253A%2520%2522https%253A%252F%252Fwww.flipkart.com%252Fe%252Fp%252Fp%253Fpid%253DMOBGHFGDDKNZHGQP%2522%257D';
-  var store_link_encoded = encodeURI(store_link);
-  var parts = app_link.split('://');
-  var scheme = parts.shift();
-  var data   = parts.join('://');
-  var appsflyer_click_ts = Date.now();
-  var intentUrl = 'intent://' + data + '#Intent;scheme=' + scheme + ';package=' + package_name + ';S.browser_fallback_url=' + store_link_encoded + ";S.market_referrer=" + referrer + ';l.appsflyer_click_ts=' + appsflyer_click_ts + ';end';
-  location.href = intentUrl;
-</script>
+
+  <!-- Add your site or application content here -->
+  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <a href="intent://invoice/#Intent;scheme=flipkart;package=com.flipkart.android;S.browser_fallback_url=https%3A%2F%2Fwww.flipkart.com%2Fe%2Fp%2Fp%3Fpid%3DMOBGGJW7PSTSQHZG;end" rel="noreferrer" target="_blank">launch</a>
+  <button onclick="logButtonClick()">Click Me</button>
+  <script src="js/app.js"></script>
+
 </body>
+
 </html>
