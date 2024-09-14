@@ -2,7 +2,7 @@ console.log("Hi this is nischay how are you")
 let x = 0
 function logMessage(message) {
   console.log(message + x);
-  window.location.replace('intent://flipkart.com/#Intent;scheme=https;package=com.flipkart.android;end');
+  window.location.replace('intent://invoice/#Intent;scheme=flipkart;package=com.flipkart.android;end');
 }
 
 // Example of logging when the page loads
